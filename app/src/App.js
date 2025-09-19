@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import AppIncreDecre from './UseStateHook/AppIncreDecre';
+import AppToggleButton from './UseStateHook/AppToggleButton';
+import AppForm from './UseStateHook/AppForm';
+import ToDoList from './UseStateHook/ToDoList';
+import ProfileForm from './UseStateHook/ProfileForm';
+import IncreDecre from './UseStateHook/IncreDecre';
+import Visibility from './UseStateHook/Visibility';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Visibility/>
     </div>
   );
 }
