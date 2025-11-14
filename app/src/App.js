@@ -5,7 +5,7 @@ import AppToggleButton from './UseStateHook/AppToggleButton';
 import AppForm from './UseStateHook/AppForm';
 import ToDoList from './UseStateHook/ToDoList';
 import ProfileForm from './UseStateHook/ProfileForm';
-import IncreDecre from './UseStateHook/IncreDecre';
+// import IncreDecre from './UseStateHook/IncreDecre';
 import Visibility from './UseStateHook/Visibility';
 import ToDo_List from './UseReducer/Todo_List';
 import ShoopingCart from './UseReducer/ShoopingCart';
@@ -20,11 +20,14 @@ import ExpensiveCalculation from './UseMemo/ExpensiveCalculation';
 import List from './UseMemo/List';
 import Aggregate from './UseMemo/Aggregate';
 import MemoStyles from './UseMemo/MemoStyles';
+import IncreDecre from './UseCallback/IncreDecre';
+import EnterKeyPress from './UseCallback/EnterKeyPress';
+import Multiplication from './UseCallback/Multiplication';
 
 function App() {
   return (
     <div className="App">
-      <MemoStyles/>
+      <Multiplication/>
     </div>
   );
 }
